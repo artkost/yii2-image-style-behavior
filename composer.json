@@ -1,0 +1,31 @@
+{
+  "name": "artkost/yii2-image-style-behavior",
+  "description": "Yii 2 image styles generation behavior",
+  "keywords": [
+    "yii",
+    "image",
+    "style",
+    "behavior"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/artkost/yii2-image-style-behavior/issues",
+    "source": "https://github.com/artkost/yii2-image-style-behavior"
+  },
+  "authors": [
+    {
+      "name": "Nikolay Kostyurin",
+      "email": "nikolay@artkost.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-imagine": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "artkost\\imagestyle\\": "src"
+    }
+  }
+}
