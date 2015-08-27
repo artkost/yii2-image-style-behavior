@@ -34,11 +34,11 @@ class ImageFile extends \yii\db\ActiveRecord
         return [
             'styles' => [
                 'class' => ImageStyleBehavior::className(),
-                'path' => $this->stylesPath(),
-                'url' => $this->stylesUrl(),
+                'path' => '@webroot/uploads/styles',
+                'url' => '@web/uploads/styles',
                 'attribute' => 'uri',
                 'styles' => [
-                    'big' => [$this, 'styleBig'],
+                    'big' => [$this, 'styleBig'], //can be any valid callable
                     'small' => [$this, 'styleSmall']
                 ]
             ]
